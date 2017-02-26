@@ -7,6 +7,7 @@ public class Main
 {
     public static void main(String[] args)
     {
+        // add one line to the Server module
         System.out.println("Hello World!");
     }
 }
