@@ -8,6 +8,7 @@ public class Main
     // add line B5 to move the master
     public static void main(String[] args)
     {
+        // add line A5 to move the PTS-200
         // add line A4 to move the PTS-200
         // add line B3 to move the master
         // add line A2 to move the PTS-200
