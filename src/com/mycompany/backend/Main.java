@@ -7,6 +7,7 @@ public class Main
 {
     public static void main(String[] args)
     {
+        // add line B1 to move the master
         // add one line to the Server module
         // add one line here
         System.out.println("Hello World!");
