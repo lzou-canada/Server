@@ -23,6 +23,7 @@ public class Main
         int a = 15;
         int b = 20;
 
+        // add line B5 to further move the master
         // add line B4 to move the master
         // add A2 to move the PTS-200
         // add A1 to move the PTS-200
