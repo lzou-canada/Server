@@ -23,6 +23,7 @@ public class Main
         int a = 15;
         int b = 20;
 
+        // add line E2 to further move the master
         // add line E1 to move the master
         // add line B5 to further move the master
         // add line B4 to move the master
