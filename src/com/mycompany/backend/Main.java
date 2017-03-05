@@ -20,6 +20,25 @@ public class Main
         // add line B1 to move the master
         // add one line to the Server module
         // add one line here
+        int a = 15;
+        int b = 20;
+
+        // add A1 to move the PTS-200
+        for ( int i = 0; i < a; i++ )
+        {
+            for ( int j = 0; j < b; j++ )
+            {
+                int lTotalValue = getSum(a, b);
+                System.out.println("total value: " + lTotalValue);
+            }
+        }
+
         System.out.println("Hello World!");
     }
+
+    private static int getSum(int a, int b)
+    {
+        return a + b;
+    }
+
 }
