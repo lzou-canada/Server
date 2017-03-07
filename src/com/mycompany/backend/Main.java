@@ -19,7 +19,7 @@ public class Main
         // add line B2 to move the master
         // add line B1 to move the master
         // add one line to the Server module
-        // add one line here
+        // add one line here to test the file status and color indicator
         int a = 15;
         int b = 20;
 
