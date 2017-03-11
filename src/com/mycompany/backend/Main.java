@@ -69,7 +69,16 @@ public class Main
         c = lDoMath.mathOperation(a1, a2, a3, a4, lMultiplication);
 
         // It is very easy to define any type of operation a user might want to do
-        DoMath.IntegerMath lDoSomeSortOfOperation = (a, b) -> a * ( a + b * 10 ) % a;
+        // do something fancy here
+        DoMath.IntegerMath lDoSomeSortOfOperation = (a, b) -> {
+            // do something fancy here
+            int result = 0;
+            for ( int i = a; i < b; i++ )
+            {
+                result += i;
+            }
+            return result;
+        };
 
         // do some sort of arbitrary math operation
         c = lDoMath.mathOperation(a1, a2, a3, a4, lDoSomeSortOfOperation);
