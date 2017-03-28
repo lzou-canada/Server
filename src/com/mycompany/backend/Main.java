@@ -69,8 +69,8 @@ public class Main
             }
         });
 
+        // added one line here to test the new IntelliJ IDE
         // add one line here
-
         // now use lambda expression for the same functionality
 
         // This lambda expression is very powerful !!!
