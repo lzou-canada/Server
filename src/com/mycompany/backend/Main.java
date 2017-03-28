@@ -27,6 +27,22 @@ public class Main
                 .forEach(i -> System.out.println(i.toUpperCase()));
         System.out.println("Done");
 
+        List<String> lAnotherList = Arrays.asList("One", "Two", "Three", "Four", "Five");
+        lAnotherList.stream()
+                .map(i ->
+                {
+                    if ( i.startsWith("F") )
+                    {
+                        return "String (" + i + ") starts with letter F";
+                    }
+                    else
+                    {
+                        return "String (" + i + ") does not start with letter F";
+                    }
+                })
+                .forEach(i -> System.out.println(i));
+
+
         // do some math here
         int a1 = 1;
         int a2 = 2;
