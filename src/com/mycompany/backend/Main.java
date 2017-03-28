@@ -53,6 +53,8 @@ public class Main
             }
         });
 
+        // add one line here
+
         // now use lambda expression for the same functionality
 
         // This lambda expression is very powerful !!!
@@ -213,6 +215,9 @@ public class Main
             return r;
         });
         System.out.println(lResult);
+
+        List<Integer> lIntegerList = Arrays.asList(1, 2, 3, 4, 5, 6);
+        lIntegerList.forEach(System.out::println);
     }
 
     public static void Print(String aString, Consumer<String> consumer)
@@ -236,5 +241,4 @@ public class Main
 
         return aInInterfaces;
     }
-
 }
