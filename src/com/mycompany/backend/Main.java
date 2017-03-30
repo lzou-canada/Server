@@ -76,6 +76,8 @@ public class Main
         // This lambda expression is very powerful !!!
         // and very easy to use ...
 
+        // add one line here
+
         // do addition
         DoMath.IntegerMath lAddition = (a, b) -> a + b;
 
