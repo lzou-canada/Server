@@ -71,6 +71,8 @@ public class Main
         // do math multiplication
         c = lDoMath.mathOperation(a1, a2, a3, a4, lMultiplication);
 
+        // add one line here
+
         // It is very easy to define any type of operation a user might want to do
         // do something fancy here
         DoMath.IntegerMath lDoSomeSortOfOperation = (a, b) -> {
